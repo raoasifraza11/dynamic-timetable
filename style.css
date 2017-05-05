@@ -62,8 +62,8 @@ th {
 	margin-bottom: 1px;
 	margin-top: 1px;
 	text-align: center;
-	font-size: 8pt;
-	width: 63px;
+	font-size: 9pt;
+	width: 150px;
 	height: 18px;
 	line-height: 18px;
 	border-width: 2px;
@@ -84,7 +84,42 @@ th {
 	border-color: LightBlue;
 }
 
+.red {
+	border-color: red;
+}
 
+.day {
+	margin: auto;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	text-align: center;
+	width: 63px;
+	height: 18px;
+	line-height: 18px;
+	border-width: 2px;
+	background-color: lightcoral;
+	color: white;
+	/* round corners */
+	border-radius: 4px; /* Opera, Chrome */
+	-moz-border-radius: 4px; /* FF */
+}
+
+.time{
+	margin: auto;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	text-align: center;
+	font-size: 8pt;
+	width: 63px;
+	height: 18px;
+	line-height: 18px;
+	border-width: 2px;
+	border-style: dotted;
+	background-color: skyblue;
+	/* round corners */
+	border-radius: 4px; /* Opera, Chrome */
+	-moz-border-radius: 4px; /* FF */
+}
 
 tr:nth-child(even) {background: #dddddd}
 tr:nth-child(odd) {background: #eeeeee}
