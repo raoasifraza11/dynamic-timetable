@@ -49,6 +49,8 @@ td {
 	/* so, I paint TR to white with JavaScript and applying aplha filter to table content (DIV elements) */
 	border: 1px solid white;
 	height: 22px;
+	padding: 10px;
+
 }
 
 /* table titles */
@@ -58,15 +60,15 @@ th {
 
 /* drag object (DIV inside table cell) */
 .redips-drag {
-	margin: auto;
-	margin-bottom: 1px;
-	margin-top: 1px;
+	margin: 3px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	text-align: center;
-	font-size: 9pt;
-	width: 150px;
-	height: 18px;
+	font-size: 12pt;
+	width: 185px;
+	height: 19px;
 	line-height: 18px;
-	border-width: 2px;
+	border-width: 0px;
 	border-style: solid;
 	background-color: white;
 	/* round corners */
@@ -74,19 +76,26 @@ th {
 	-moz-border-radius: 4px; /* FF */
 }
 
-/* orange DIV elements */
-.orange {
-	border-color: #FF8A58;
-}
+.brown
+{color:#fff;background-color:#633517}
 
-/* blue DIV elements */
-.blue {
-	border-color: LightBlue;
-}
+.red
+{color:#fff;background-color:#a6001a}
 
-.red {
-	border-color: red;
-}
+.orange
+{color:#fff;background-color:#e06000}
+
+.schoolbus
+{color:#fff;background-color:#ee9600}
+
+.yellow
+{color:#fff;background-color:#ffab00}
+
+.green
+{color:#fff;background-color:#004d33}
+
+.blue
+{color:#fff;background-color:#00477e}
 
 .day {
 	margin: auto;
@@ -142,3 +151,5 @@ tr:nth-child(odd) {background: #eeeeee}
 	font-size: 11px;
 	text-align: justify;
 }
+
+.centeredDiv { float: left; }

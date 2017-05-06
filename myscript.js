@@ -10,4 +10,14 @@ var table = $('table').click(function () {
 });
 
 
+$(document).ready(function(){
+    var classes = ["red", "orange", 'brown', 'schoolbus', 'yellow', 'green', 'blue'];
+
+    $(".redips-drag").each(function(){
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
+    console.log('Color Loaded');
+});
+
+
 console.log(t);
