@@ -89,21 +89,3 @@
 			<script type="text/javascript" src="myscript.js"></script>
 	</body>
 </html>
-
-<!--
-
-<tbody>
-
-						<tr>
-							<td class="day">Monday</td>
-							<td><div class="redips-drag red">MG306-CB-HM[LH-7]</div></td>
-							<td><div class="redips-drag orange">CS106-ITP-A-SMJ[LH-6]</div></td>
-						</tr>
-						<tr>
-							<td class="day">Tuesday</td>
-							<td><div class="redips-drag blue">CS200-OOP-AH[Lab2]</div></td>
-							<td></td>
-						</tr>
-					</tbody>
-
--->
